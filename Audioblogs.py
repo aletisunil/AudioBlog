@@ -5,7 +5,7 @@ import re
 from gtts import gTTS 
 def app():
     st.set_page_config(page_title="Audio Blog",page_icon="🎧")
-    st.title("Generate Audio for dev.to blogposts")
+    st.title("Generates Audio for dev.to blogposts")
     url=st.text_area("Enter any DEV.TO blog url ").strip()
     if st.button("submit"):
         if len(url)!=0:
